@@ -302,7 +302,7 @@ Transform:
   m_GameObject: {fileID: 450473888}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.05, y: -0.27, z: 0}
+  m_LocalPosition: {x: 0.05, y: 2.51, z: 0}
   m_LocalScale: {x: 4.3005, y: 3.7668, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -692,7 +692,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8c9de787d90564e8aa020b5be746ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 20
+  damage: 16.7
 --- !u!1 &1554365093
 GameObject:
   m_ObjectHideFlags: 0
@@ -718,7 +718,7 @@ Transform:
   m_GameObject: {fileID: 1554365093}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.69000006, y: -0.35000002, z: 0}
+  m_LocalPosition: {x: 1.4, y: -0.35000002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -758,8 +758,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -292.8, y: 186.92316}
-  m_SizeDelta: {x: 40.7195, y: 22.1099}
+  m_AnchoredPosition: {x: -303.5, y: 173.32935}
+  m_SizeDelta: {x: 41.9683, y: 50.5935}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1654131088
 MonoBehaviour:
@@ -781,7 +781,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 7865182dc2598594d89db72d0af80252, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1125,7 +1125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackPoint: {fileID: 1554365094}
-  attackRange: 1.35
+  attackRange: 1.12
   enemyLayers:
     serializedVersion: 2
     m_Bits: 1024

@@ -15,6 +15,9 @@ public class player : MonoBehaviour
     private float dashingTime = 0.2f; 
     private float dashingCooldown = 1f;
 
+    private float x; 
+    private float y; 
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -33,6 +36,8 @@ public class player : MonoBehaviour
         {
             StartCoroutine(Dash());
         }
+
+        GetInput(); 
     }
 
     void FixedUpdate() 
@@ -43,6 +48,8 @@ public class player : MonoBehaviour
         }
         
         rb.linearVelocity = movementDirection * movementSpeed; 
+
+        rb.linearVelocity = new Vector3( x * movementSpeed, y * movementSpeed);
     }
 
     private IEnumerator Dash()
@@ -69,4 +76,12 @@ public class player : MonoBehaviour
         yield return new WaitForSeconds(dashingCooldown); 
         canDash = true; 
     }
+
+    private void GetInput()
+    {
+        x = Input.GetAxisRaw("Horizontal"); 
+        y = Input.GetAxisRaw("Vertical"); 
+    }
+
+
 }
