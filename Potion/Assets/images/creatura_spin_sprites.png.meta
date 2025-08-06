@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 1af35630e0350ee4893233bd5f7a1e23
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 87475818978578166
+    second: creatura_spin_sprites_0
+  - first:
+      213: -166666672076646122
+    second: creatura_spin_sprites_1
+  - first:
+      213: 7215092596170516943
+    second: creatura_spin_sprites_2
+  - first:
+      213: -9180393593804934194
+    second: creatura_spin_sprites_3
+  - first:
+      213: -8762933665417911735
+    second: creatura_spin_sprites_4
+  - first:
+      213: -1952801001026206860
+    second: creatura_spin_sprites_5
+  - first:
+      213: -5156378668108372025
+    second: creatura_spin_sprites_6
+  - first:
+      213: 2544611756607947896
+    second: creatura_spin_sprites_7
+  - first:
+      213: 5775773677117550461
+    second: creatura_spin_sprites_8
+  - first:
+      213: 5680098895329657617
+    second: creatura_spin_sprites_9
+  - first:
+      213: 8035435626359209928
+    second: creatura_spin_sprites_10
+  - first:
+      213: 3591676043111399836
+    second: creatura_spin_sprites_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: creatura_spin_sprites_0
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 126
+        width: 1262
+        height: 2442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe87ac3bc6c63100800000000000000
+      internalID: 87475818978578166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatura_spin_sprites_1
+      rect:
+        serializedVersion: 2
+        x: 2548
+        y: 128
+        width: 1119
+        height: 2326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61999f67b81efadf0800000000000000
+      internalID: -166666672076646122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatura_spin_sprites_2
+      rect:
+        serializedVersion: 2
+        x: 4532
+        y: 260
+        width: 1277
+        height: 2649
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc96b403d78212460800000000000000
+      internalID: 7215092596170516943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatura_spin_sprites_3
+      rect:
+        serializedVersion: 2
+        x: 6569
+        y: 141
+        width: 1255
+        height: 2827
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec33cfe8aa0b89080800000000000000
+      internalID: -9180393593804934194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatura_spin_sprites_4
+      rect:
+        serializedVersion: 2
+        x: 8639
+        y: 125
+        width: 1236
+        height: 2843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9422472624ec36680800000000000000
+      internalID: -8762933665417911735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatura_spin_sprites_5
+      rect:
+        serializedVersion: 2
+        x: 10635
+        y: 163
+        width: 1272
+        height: 2805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4734ec006d146e4e0800000000000000
+      internalID: -1952801001026206860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatura_spin_sprites_6
+      rect:
+        serializedVersion: 2
+        x: 12720
+        y: 141
+        width: 1254
+        height: 2827
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7aff7cbecd078b0800000000000000
+      internalID: -5156378668108372025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatura_spin_sprites_7
+      rect:
+        serializedVersion: 2
+        x: 14790
+        y: 125
+        width: 1236
+        height: 2843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87446e329e6405320800000000000000
+      internalID: 2544611756607947896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatura_spin_sprites_8
+      rect:
+        serializedVersion: 2
+        x: 16785
+        y: 163
+        width: 1273
+        height: 2805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7fa4a7de8ba72050800000000000000
+      internalID: 5775773677117550461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatura_spin_sprites_9
+      rect:
+        serializedVersion: 2
+        x: 18870
+        y: 141
+        width: 1255
+        height: 2827
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1138631d9d3c3de40800000000000000
+      internalID: 5680098895329657617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatura_spin_sprites_10
+      rect:
+        serializedVersion: 2
+        x: 20924
+        y: 260
+        width: 1476
+        height: 2677
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cfb8ace02a938f60800000000000000
+      internalID: 8035435626359209928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatura_spin_sprites_11
+      rect:
+        serializedVersion: 2
+        x: 22984
+        y: 128
+        width: 1204
+        height: 2499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c918fe9e45238d130800000000000000
+      internalID: 3591676043111399836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      creatura_spin_sprites_0: 87475818978578166
+      creatura_spin_sprites_1: -166666672076646122
+      creatura_spin_sprites_10: 8035435626359209928
+      creatura_spin_sprites_11: 3591676043111399836
+      creatura_spin_sprites_2: 7215092596170516943
+      creatura_spin_sprites_3: -9180393593804934194
+      creatura_spin_sprites_4: -8762933665417911735
+      creatura_spin_sprites_5: -1952801001026206860
+      creatura_spin_sprites_6: -5156378668108372025
+      creatura_spin_sprites_7: 2544611756607947896
+      creatura_spin_sprites_8: 5775773677117550461
+      creatura_spin_sprites_9: 5680098895329657617
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

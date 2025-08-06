@@ -6,7 +6,6 @@ public class ennemy_damage : MonoBehaviour
 {
     
     public float damage;
-    private float hitCoolDown = 0.2f; 
     private bool isTouching;  
     private float lastHitTime = 0;  
 
