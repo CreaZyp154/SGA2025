@@ -1,28 +1,31 @@
 fileFormatVersion: 2
-guid: 81771d342abbead40936b9cd254f05a7
+guid: 81f66da4939bb5049bdb7003140f62f6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7017761073204862777
-    second: sprite_walk_game25_0
+      213: -3491798494469816931
+    second: shadow_squish_sprites_3_0
   - first:
-      213: 6123251058889726183
-    second: sprite_walk_game25_1
+      213: 3609427658033931787
+    second: shadow_squish_sprites_3_1
   - first:
-      213: -3804888183494000723
-    second: sprite_walk_game25_2
+      213: -3753645164432198866
+    second: shadow_squish_sprites_3_2
   - first:
-      213: 8975248621654877206
-    second: sprite_walk_game25_3
+      213: -1184030599672308436
+    second: shadow_squish_sprites_3_3
   - first:
-      213: -5809337407116808448
-    second: sprite_walk_game25_4
+      213: -1400934335736660876
+    second: shadow_squish_sprites_3_4
   - first:
-      213: 8343199372089504584
-    second: sprite_walk_game25_5
+      213: 1519943857467447440
+    second: shadow_squish_sprites_3_5
   - first:
-      213: 5111793075333863955
-    second: sprite_walk_game25_6
+      213: -8359929532461869980
+    second: shadow_squish_sprites_3_6
+  - first:
+      213: -5875022695245525927
+    second: shadow_squish_sprites_3_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -69,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1000
+  spritePixelsToUnits: 600
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -118,13 +121,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sprite_walk_game25_0
+      name: shadow_squish_sprites_3_0
       rect:
         serializedVersion: 2
-        x: 176
-        y: 117
-        width: 1801
-        height: 2674
+        x: 53
+        y: 828
+        width: 1784
+        height: 2063
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,20 +136,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7c06f015c77eb9e90800000000000000
-      internalID: -7017761073204862777
+      spriteID: d9df1e505c3aa8fc0800000000000000
+      internalID: -3491798494469816931
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_walk_game25_1
+      name: shadow_squish_sprites_3_1
       rect:
         serializedVersion: 2
-        x: 2297
-        y: 97
-        width: 1697
-        height: 2889
+        x: 2533
+        y: 828
+        width: 1784
+        height: 2005
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7e818ab45682af450800000000000000
-      internalID: 6123251058889726183
+      spriteID: b062597d453471230800000000000000
+      internalID: 3609427658033931787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_walk_game25_2
+      name: shadow_squish_sprites_3_2
       rect:
         serializedVersion: 2
-        x: 4427
-        y: 36
-        width: 1497
-        height: 2959
+        x: 5013
+        y: 828
+        width: 1784
+        height: 2005
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,20 +180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: daf32c43b52523bc0800000000000000
-      internalID: -3804888183494000723
+      spriteID: e23f7215c9f58ebc0800000000000000
+      internalID: -3753645164432198866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_walk_game25_3
+      name: shadow_squish_sprites_3_3
       rect:
         serializedVersion: 2
-        x: 6258
-        y: 53
-        width: 1522
-        height: 2947
+        x: 7493
+        y: 828
+        width: 1784
+        height: 1947
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,20 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 614ad88811d7e8c70800000000000000
-      internalID: 8975248621654877206
+      spriteID: c2dd65f517a719fe0800000000000000
+      internalID: -1184030599672308436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_walk_game25_4
+      name: shadow_squish_sprites_3_4
       rect:
         serializedVersion: 2
-        x: 7920
-        y: 47
-        width: 1515
-        height: 2935
+        x: 9973
+        y: 828
+        width: 1784
+        height: 1947
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 00fe96c4866116fa0800000000000000
-      internalID: -5809337407116808448
+      spriteID: 47cb4c4e4a1ee8ce0800000000000000
+      internalID: -1400934335736660876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_walk_game25_5
+      name: shadow_squish_sprites_3_5
       rect:
         serializedVersion: 2
-        x: 9680
-        y: 72
-        width: 1589
-        height: 2849
+        x: 12453
+        y: 828
+        width: 1784
+        height: 2005
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,20 +246,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 84338afef9ff8c370800000000000000
-      internalID: 8343199372089504584
+      spriteID: 09852e6a2ece71510800000000000000
+      internalID: 1519943857467447440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_walk_game25_6
+      name: shadow_squish_sprites_3_6
       rect:
         serializedVersion: 2
-        x: 11436
-        y: 105
-        width: 1662
-        height: 2700
+        x: 14933
+        y: 828
+        width: 1784
+        height: 2005
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,8 +268,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 31a9394f7bcb0f640800000000000000
-      internalID: 5111793075333863955
+      spriteID: 464105e02609bfb80800000000000000
+      internalID: -8359929532461869980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadow_squish_sprites_3_7
+      rect:
+        serializedVersion: 2
+        x: 17413
+        y: 828
+        width: 1784
+        height: 2063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c48826cf9b77ea0800000000000000
+      internalID: -5875022695245525927
       vertices: []
       indices: 
       edges: []
@@ -285,13 +310,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      sprite_walk_game25_0: -7017761073204862777
-      sprite_walk_game25_1: 6123251058889726183
-      sprite_walk_game25_2: -3804888183494000723
-      sprite_walk_game25_3: 8975248621654877206
-      sprite_walk_game25_4: -5809337407116808448
-      sprite_walk_game25_5: 8343199372089504584
-      sprite_walk_game25_6: 5111793075333863955
+      shadow_squish_sprites_3_0: -3491798494469816931
+      shadow_squish_sprites_3_1: 3609427658033931787
+      shadow_squish_sprites_3_2: -3753645164432198866
+      shadow_squish_sprites_3_3: -1184030599672308436
+      shadow_squish_sprites_3_4: -1400934335736660876
+      shadow_squish_sprites_3_5: 1519943857467447440
+      shadow_squish_sprites_3_6: -8359929532461869980
+      shadow_squish_sprites_3_7: -5875022695245525927
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -10,6 +10,8 @@ public class playerhealth : MonoBehaviour
     public float maxHealth; 
     public Image healthBar; 
     public int respawn; 
+    public Animator animator;
+    public Rigidbody2D rb; 
 
     void Start()
     {
@@ -23,7 +25,9 @@ public class playerhealth : MonoBehaviour
 
         if(health <= 0)
         {
-            SceneManager.LoadScene(respawn); 
+            animator.SetTrigger("dead");
+            rb.constraints = RigidbodyConstraints2D.FreezeAll;
+            this.enabled = false;
 
         }
     }

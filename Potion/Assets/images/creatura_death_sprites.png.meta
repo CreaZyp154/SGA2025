@@ -1,28 +1,34 @@
 fileFormatVersion: 2
-guid: 81771d342abbead40936b9cd254f05a7
+guid: e849c24908a4cbd46bceab368d1f3573
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7017761073204862777
-    second: sprite_walk_game25_0
+      213: 4696865756643338736
+    second: creatura_death_sprites_0
   - first:
-      213: 6123251058889726183
-    second: sprite_walk_game25_1
+      213: 6197075431235630482
+    second: creatura_death_sprites_1
   - first:
-      213: -3804888183494000723
-    second: sprite_walk_game25_2
+      213: 2613501196878723574
+    second: creatura_death_sprites_2
   - first:
-      213: 8975248621654877206
-    second: sprite_walk_game25_3
+      213: 5140638511006977017
+    second: creatura_death_sprites_3
   - first:
-      213: -5809337407116808448
-    second: sprite_walk_game25_4
+      213: 4267275038672550476
+    second: creatura_death_sprites_4
   - first:
-      213: 8343199372089504584
-    second: sprite_walk_game25_5
+      213: -8799774461123279327
+    second: creatura_death_sprites_5
   - first:
-      213: 5111793075333863955
-    second: sprite_walk_game25_6
+      213: -837203489556101207
+    second: creatura_death_sprites_6
+  - first:
+      213: -3569253225568535944
+    second: creatura_death_sprites_7
+  - first:
+      213: 6579018178428923354
+    second: creatura_death_sprites_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -118,13 +124,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sprite_walk_game25_0
+      name: creatura_death_sprites_0
       rect:
         serializedVersion: 2
-        x: 176
-        y: 117
-        width: 1801
-        height: 2674
+        x: 410
+        y: 237
+        width: 1508
+        height: 2866
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,20 +139,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7c06f015c77eb9e90800000000000000
-      internalID: -7017761073204862777
+      spriteID: 0f92c66458e9e2140800000000000000
+      internalID: 4696865756643338736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_walk_game25_1
+      name: creatura_death_sprites_1
       rect:
         serializedVersion: 2
-        x: 2297
-        y: 97
-        width: 1697
-        height: 2889
+        x: 2890
+        y: 237
+        width: 1508
+        height: 2866
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7e818ab45682af450800000000000000
-      internalID: 6123251058889726183
+      spriteID: 295b91d654f600650800000000000000
+      internalID: 6197075431235630482
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_walk_game25_2
+      name: creatura_death_sprites_2
       rect:
         serializedVersion: 2
-        x: 4427
-        y: 36
-        width: 1497
-        height: 2959
+        x: 5370
+        y: 237
+        width: 1520
+        height: 2866
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,20 +183,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: daf32c43b52523bc0800000000000000
-      internalID: -3804888183494000723
+      spriteID: 6f9b30cdd75054420800000000000000
+      internalID: 2613501196878723574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_walk_game25_3
+      name: creatura_death_sprites_3
       rect:
         serializedVersion: 2
-        x: 6258
-        y: 53
-        width: 1522
-        height: 2947
+        x: 7850
+        y: 237
+        width: 1518
+        height: 2866
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,20 +205,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 614ad88811d7e8c70800000000000000
-      internalID: 8975248621654877206
+      spriteID: 9fb834f4d77375740800000000000000
+      internalID: 5140638511006977017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_walk_game25_4
+      name: creatura_death_sprites_4
       rect:
         serializedVersion: 2
-        x: 7920
-        y: 47
-        width: 1515
-        height: 2935
+        x: 10330
+        y: 237
+        width: 1535
+        height: 2866
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +227,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 00fe96c4866116fa0800000000000000
-      internalID: -5809337407116808448
+      spriteID: c4af7f6e908683b30800000000000000
+      internalID: 4267275038672550476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_walk_game25_5
+      name: creatura_death_sprites_5
       rect:
         serializedVersion: 2
-        x: 9680
-        y: 72
-        width: 1589
-        height: 2849
+        x: 13022
+        y: 259
+        width: 1296
+        height: 2792
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,20 +249,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 84338afef9ff8c370800000000000000
-      internalID: 8343199372089504584
+      spriteID: 126413530cbe0e580800000000000000
+      internalID: -8799774461123279327
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_walk_game25_6
+      name: creatura_death_sprites_6
       rect:
         serializedVersion: 2
-        x: 11436
-        y: 105
-        width: 1662
-        height: 2700
+        x: 15403
+        y: 234
+        width: 1426
+        height: 2570
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,8 +271,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 31a9394f7bcb0f640800000000000000
-      internalID: 5111793075333863955
+      spriteID: 9a78a48acd7a164f0800000000000000
+      internalID: -837203489556101207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatura_death_sprites_7
+      rect:
+        serializedVersion: 2
+        x: 17883
+        y: 234
+        width: 1426
+        height: 2570
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87af1902a17777ec0800000000000000
+      internalID: -3569253225568535944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creatura_death_sprites_8
+      rect:
+        serializedVersion: 2
+        x: 20330
+        y: 255
+        width: 1336
+        height: 2560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adde7181d2e5d4b50800000000000000
+      internalID: 6579018178428923354
       vertices: []
       indices: 
       edges: []
@@ -285,13 +335,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      sprite_walk_game25_0: -7017761073204862777
-      sprite_walk_game25_1: 6123251058889726183
-      sprite_walk_game25_2: -3804888183494000723
-      sprite_walk_game25_3: 8975248621654877206
-      sprite_walk_game25_4: -5809337407116808448
-      sprite_walk_game25_5: 8343199372089504584
-      sprite_walk_game25_6: 5111793075333863955
+      creatura_death_sprites_0: 4696865756643338736
+      creatura_death_sprites_1: 6197075431235630482
+      creatura_death_sprites_2: 2613501196878723574
+      creatura_death_sprites_3: 5140638511006977017
+      creatura_death_sprites_4: 4267275038672550476
+      creatura_death_sprites_5: -8799774461123279327
+      creatura_death_sprites_6: -837203489556101207
+      creatura_death_sprites_7: -3569253225568535944
+      creatura_death_sprites_8: 6579018178428923354
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

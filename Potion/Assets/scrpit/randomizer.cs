@@ -8,7 +8,7 @@ public class randomizerPotion
 {
     string[] potions = { "Word", "Pretty", "Hyper", "Amanita", "Hero", "Pocket" };
 
-    List<string> currentPotions;
+    List<string> currentPotions = new List<string>();
 
     public randomizerPotion()
     {

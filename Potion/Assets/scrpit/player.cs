@@ -16,7 +16,12 @@ public class player : MonoBehaviour
     private float dashingCooldown = 1f;
 
     private float x; 
-    private float y; 
+    private float y;
+
+    float inputHorizontal; 
+    float inputVertical;
+
+    public Animator animator;
 
     void Start()
     {
@@ -38,6 +43,7 @@ public class player : MonoBehaviour
         }
 
         GetInput(); 
+
     }
 
     void FixedUpdate() 
@@ -47,9 +53,50 @@ public class player : MonoBehaviour
             return;
         }
         
-        rb.linearVelocity = movementDirection * movementSpeed; 
+        rb.linearVelocity = movementDirection * movementSpeed;
 
-        rb.linearVelocity = new Vector3( x * movementSpeed, y * movementSpeed);
+        rb.linearVelocity = new Vector3(x * movementSpeed, y * movementSpeed); 
+
+        inputHorizontal = Input.GetAxisRaw("Horizontal");
+        inputVertical = Input.GetAxisRaw("Vertical");
+
+        if (inputHorizontal == 0 && inputVertical == 0)
+        {
+            animator.SetBool("Walk", false);
+        }
+
+        if (inputHorizontal != 0)
+        {
+            rb.AddForce(new Vector2(inputHorizontal * movementSpeed, 0f));
+            
+        }
+        if (inputHorizontal > 0)
+        {
+            gameObject.transform.localScale = new Vector3(1, 1, 1);
+            animator.SetBool("Walk", true); 
+        }
+        if (inputHorizontal < 0)
+        {
+            gameObject.transform.localScale = new Vector3(-1, 1, 1);
+            animator.SetBool("Walk", true);
+        }
+
+        if (inputVertical != 0)
+        {
+            rb.AddForce(new Vector2(inputHorizontal * movementSpeed, 0f));
+     
+        }
+        if (inputVertical > 0)
+        {
+            gameObject.transform.localScale = new Vector3(1, 1, 1);
+            animator.SetBool("Walk", true);
+        }
+        if (inputVertical < 0)
+        {
+            gameObject.transform.localScale = new Vector3(-1, 1, 1);
+            animator.SetBool("Walk", true);
+        }
+
     }
 
     private IEnumerator Dash()

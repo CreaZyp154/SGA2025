@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: 84f14926964850c4abcabaf588ff7c8b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6191375297669075166
+    second: enemydeathswirly_0
+  - first:
+      213: 8338365517120683242
+    second: enemydeathswirly_1
+  - first:
+      213: 4402989659259011786
+    second: enemydeathswirly_2
+  - first:
+      213: 3950836039931998741
+    second: enemydeathswirly_3
+  - first:
+      213: 1235992853442006259
+    second: enemydeathswirly_4
+  - first:
+      213: -6661764128869177846
+    second: enemydeathswirly_5
+  - first:
+      213: -5954312438007298292
+    second: enemydeathswirly_6
+  - first:
+      213: -4559913892427392463
+    second: enemydeathswirly_7
+  - first:
+      213: -4405860513044893212
+    second: enemydeathswirly_8
+  - first:
+      213: 3677768535061395062
+    second: enemydeathswirly_9
+  - first:
+      213: -7153146883996200496
+    second: enemydeathswirly_10
+  - first:
+      213: -6468361049014468201
+    second: enemydeathswirly_11
+  - first:
+      213: 5112026388983829953
+    second: enemydeathswirly_12
+  - first:
+      213: 5193753192232650823
+    second: enemydeathswirly_13
+  - first:
+      213: -1311132305514854811
+    second: enemydeathswirly_14
+  - first:
+      213: -2365326513184335000
+    second: enemydeathswirly_15
+  - first:
+      213: 179039141748875266
+    second: enemydeathswirly_16
+  - first:
+      213: -7521914576794298178
+    second: enemydeathswirly_17
+  - first:
+      213: 8532811084315915269
+    second: enemydeathswirly_18
+  - first:
+      213: -8333087170919126375
+    second: enemydeathswirly_19
+  - first:
+      213: -3501217318040495486
+    second: enemydeathswirly_20
+  - first:
+      213: -7373533643865146634
+    second: enemydeathswirly_21
+  - first:
+      213: 559237186419647774
+    second: enemydeathswirly_22
+  - first:
+      213: -4474542020852028117
+    second: enemydeathswirly_23
+  - first:
+      213: 7313744092490675515
+    second: enemydeathswirly_24
+  - first:
+      213: 2739844845822163795
+    second: enemydeathswirly_25
+  - first:
+      213: -7710291362925232809
+    second: enemydeathswirly_26
+  - first:
+      213: 360634768927464291
+    second: enemydeathswirly_27
+  - first:
+      213: -5444729936153307922
+    second: enemydeathswirly_28
+  - first:
+      213: 4546046285367558099
+    second: enemydeathswirly_29
+  - first:
+      213: -5726240797917759248
+    second: enemydeathswirly_30
+  - first:
+      213: -9028275953174408773
+    second: enemydeathswirly_31
+  - first:
+      213: 8200167271260508619
+    second: enemydeathswirly_32
+  - first:
+      213: -3859146896209032489
+    second: enemydeathswirly_33
+  - first:
+      213: -6310709036855895335
+    second: enemydeathswirly_34
+  - first:
+      213: -7776531432625062099
+    second: enemydeathswirly_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 600
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemydeathswirly_0
+      rect:
+        serializedVersion: 2
+        x: 4049
+        y: 828
+        width: 1742
+        height: 2251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f6e4758f0d31aa0800000000000000
+      internalID: -6191375297669075166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_1
+      rect:
+        serializedVersion: 2
+        x: 5899
+        y: 828
+        width: 1742
+        height: 2251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec385f5243d7b370800000000000000
+      internalID: 8338365517120683242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_2
+      rect:
+        serializedVersion: 2
+        x: 7600
+        y: 768
+        width: 1742
+        height: 2251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac20add54cf8a1d30800000000000000
+      internalID: 4402989659259011786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_3
+      rect:
+        serializedVersion: 2
+        x: 17119
+        y: 3008
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51235f5227034d630800000000000000
+      internalID: 3950836039931998741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_4
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 828
+        width: 1784
+        height: 2063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc055e93f0272110800000000000000
+      internalID: 1235992853442006259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_5
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 828
+        width: 2147
+        height: 2063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06205102d8ac83a0800000000000000
+      internalID: -6661764128869177846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_6
+      rect:
+        serializedVersion: 2
+        x: 9478
+        y: 782
+        width: 1706
+        height: 2177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0782ea82680e5da0800000000000000
+      internalID: -5954312438007298292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_7
+      rect:
+        serializedVersion: 2
+        x: 11615
+        y: 1015
+        width: 1401
+        height: 1669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a1f7b697ee7b0c0800000000000000
+      internalID: -4559913892427392463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_8
+      rect:
+        serializedVersion: 2
+        x: 17320
+        y: 2461
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1f906e43d3bd2c0800000000000000
+      internalID: -4405860513044893212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_9
+      rect:
+        serializedVersion: 2
+        x: 13809
+        y: 1416
+        width: 959
+        height: 991
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676717a3ffe0a0330800000000000000
+      internalID: 3677768535061395062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_10
+      rect:
+        serializedVersion: 2
+        x: 15651
+        y: 1583
+        width: 582
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1d639decaeabc90800000000000000
+      internalID: -7153146883996200496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_11
+      rect:
+        serializedVersion: 2
+        x: 15894
+        y: 2271
+        width: 397
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791058295e3cb36a0800000000000000
+      internalID: -6468361049014468201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_12
+      rect:
+        serializedVersion: 2
+        x: 16294
+        y: 2258
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5ddc58ae091f640800000000000000
+      internalID: 5112026388983829953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_13
+      rect:
+        serializedVersion: 2
+        x: 16905
+        y: 2225
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 748041ab20be31840800000000000000
+      internalID: 5193753192232650823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_14
+      rect:
+        serializedVersion: 2
+        x: 16303
+        y: 2249
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5668f346d1cedcde0800000000000000
+      internalID: -1311132305514854811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_15
+      rect:
+        serializedVersion: 2
+        x: 15999
+        y: 1685
+        width: 358
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86b95db711cac2fd0800000000000000
+      internalID: -2365326513184335000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_16
+      rect:
+        serializedVersion: 2
+        x: 16367
+        y: 1892
+        width: 80
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20025dc96231c7200800000000000000
+      internalID: 179039141748875266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_17
+      rect:
+        serializedVersion: 2
+        x: 17099
+        y: 2029
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb8d7539b8acc9790800000000000000
+      internalID: -7521914576794298178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_18
+      rect:
+        serializedVersion: 2
+        x: 17380
+        y: 1917
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5047a20f872aa6670800000000000000
+      internalID: 8532811084315915269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_19
+      rect:
+        serializedVersion: 2
+        x: 17392
+        y: 1732
+        width: 243
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a200f5e5dea5c80800000000000000
+      internalID: -8333087170919126375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_20
+      rect:
+        serializedVersion: 2
+        x: 17582
+        y: 1885
+        width: 61
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a10c4466d296fc0800000000000000
+      internalID: -3501217318040495486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_21
+      rect:
+        serializedVersion: 2
+        x: 17664
+        y: 1900
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fab602b732fba990800000000000000
+      internalID: -7373533643865146634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_22
+      rect:
+        serializedVersion: 2
+        x: 17637
+        y: 1838
+        width: 10
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e156bb1124fc2c700800000000000000
+      internalID: 559237186419647774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_23
+      rect:
+        serializedVersion: 2
+        x: 17631
+        y: 1821
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d6e8a3dbb37e1c0800000000000000
+      internalID: -4474542020852028117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_24
+      rect:
+        serializedVersion: 2
+        x: 11565
+        y: 1585
+        width: 54
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35b4039083af7560800000000000000
+      internalID: 7313744092490675515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_25
+      rect:
+        serializedVersion: 2
+        x: 15611
+        y: 1699
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b3ae6fe52e50620800000000000000
+      internalID: 2739844845822163795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_26
+      rect:
+        serializedVersion: 2
+        x: 15034
+        y: 1672
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d34163bda8ff490800000000000000
+      internalID: -7710291362925232809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_27
+      rect:
+        serializedVersion: 2
+        x: 17496
+        y: 1627
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b939f596b310500800000000000000
+      internalID: 360634768927464291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_28
+      rect:
+        serializedVersion: 2
+        x: 17507
+        y: 1607
+        width: 99
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee495a178fe6074b0800000000000000
+      internalID: -5444729936153307922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_29
+      rect:
+        serializedVersion: 2
+        x: 18307
+        y: 1589
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df31d3b20dc61f30800000000000000
+      internalID: 4546046285367558099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_30
+      rect:
+        serializedVersion: 2
+        x: 18322
+        y: 1554
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f833cd455e4880b0800000000000000
+      internalID: -5726240797917759248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_31
+      rect:
+        serializedVersion: 2
+        x: 18205
+        y: 1514
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb196dcbade15b280800000000000000
+      internalID: -9028275953174408773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_32
+      rect:
+        serializedVersion: 2
+        x: 18219
+        y: 1489
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc15446dfa8dcc170800000000000000
+      internalID: 8200167271260508619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_33
+      rect:
+        serializedVersion: 2
+        x: 17559
+        y: 1367
+        width: 70
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dac863385e817ac0800000000000000
+      internalID: -3859146896209032489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_34
+      rect:
+        serializedVersion: 2
+        x: 18105
+        y: 1366
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da5b59019bdb68a0800000000000000
+      internalID: -6310709036855895335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemydeathswirly_35
+      rect:
+        serializedVersion: 2
+        x: 15452
+        y: 1228
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f39b52dd5341490800000000000000
+      internalID: -7776531432625062099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      enemydeathswirly_0: -6191375297669075166
+      enemydeathswirly_1: 8338365517120683242
+      enemydeathswirly_10: -7153146883996200496
+      enemydeathswirly_11: -6468361049014468201
+      enemydeathswirly_12: 5112026388983829953
+      enemydeathswirly_13: 5193753192232650823
+      enemydeathswirly_14: -1311132305514854811
+      enemydeathswirly_15: -2365326513184335000
+      enemydeathswirly_16: 179039141748875266
+      enemydeathswirly_17: -7521914576794298178
+      enemydeathswirly_18: 8532811084315915269
+      enemydeathswirly_19: -8333087170919126375
+      enemydeathswirly_2: 4402989659259011786
+      enemydeathswirly_20: -3501217318040495486
+      enemydeathswirly_21: -7373533643865146634
+      enemydeathswirly_22: 559237186419647774
+      enemydeathswirly_23: -4474542020852028117
+      enemydeathswirly_24: 7313744092490675515
+      enemydeathswirly_25: 2739844845822163795
+      enemydeathswirly_26: -7710291362925232809
+      enemydeathswirly_27: 360634768927464291
+      enemydeathswirly_28: -5444729936153307922
+      enemydeathswirly_29: 4546046285367558099
+      enemydeathswirly_3: 3950836039931998741
+      enemydeathswirly_30: -5726240797917759248
+      enemydeathswirly_31: -9028275953174408773
+      enemydeathswirly_32: 8200167271260508619
+      enemydeathswirly_33: -3859146896209032489
+      enemydeathswirly_34: -6310709036855895335
+      enemydeathswirly_35: -7776531432625062099
+      enemydeathswirly_4: 1235992853442006259
+      enemydeathswirly_5: -6661764128869177846
+      enemydeathswirly_6: -5954312438007298292
+      enemydeathswirly_7: -4559913892427392463
+      enemydeathswirly_8: -4405860513044893212
+      enemydeathswirly_9: 3677768535061395062
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
