@@ -1,13 +1,27 @@
-using UnityEngine;
+using System;
 using System.Collections;
+using UnityEngine;
 
 public class player : MonoBehaviour
 {
+    [Header("Player stats")]
     [SerializeField] private float movementSpeed = 2f;
     [SerializeField] private TrailRenderer tr;
 
     private Rigidbody2D rb; 
-    private Vector2 movementDirection; 
+    private Vector2 movementDirection;
+    private Transform transform;
+
+    public struct PlayerModifier
+    {
+        public float speed, scale;
+        public void Init()
+        {
+            speed = 1f;
+            scale = 1f;
+        }
+    }
+    public PlayerModifier modifier = new PlayerModifier();
 
     private bool canDash = true; 
     private bool isDashing; 
@@ -26,6 +40,8 @@ public class player : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        ResetEffects();
+        
     }
 
     void Update()
@@ -130,5 +146,16 @@ public class player : MonoBehaviour
         y = Input.GetAxisRaw("Vertical"); 
     }
 
+    public void ResetEffects()
+    {
+        modifier.Init();
+        ApplyScale();
+    }
 
+    public void ApplyScale()
+    {
+        Transform transform = GetComponent<Transform>();
+        //transform.globalScale.Set(x = PlayerModifier.scale, y = PlayerModifier.scale);
+        transform.localScale = new Vector3(modifier.scale, modifier.scale, 1);
+    }
 }
