@@ -3,14 +3,26 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using Random = UnityEngine.Random;
+using UnityEngine.Rendering;
+using JetBrains.Annotations;
+using UnityEngine.Rendering.Universal;
 
 [System.Serializable]
 public enum Modifier
 {
+    Reset,
     InvertControls,
     Speed,
     Scale,
-    Reset
+    Opacity
+}
+
+[System.Serializable]
+public enum VisualEffect
+{
+    None,
+    Reset,
+    Green
 }
 
 [CreateAssetMenu(menuName = "Potions/New Potion")]
@@ -28,10 +40,17 @@ public class Potion : ScriptableObject
     public string effectDescription;
     public Texture2D image;
 
+
+    public Volume globalVolume;
+    private ColorAdjustments colorAdjustments;
+
     public List<Modifiers> modifiers = new List<Modifiers>();
 
-    public void Apply(GameObject user)
+    public VisualEffect visualEffect;
+
+    public void Apply(GameObject user, Volume globalVolume)
     {
+        ChangeVisualEffect(visualEffect, globalVolume);
         foreach(Modifiers modifier in modifiers)
         {
             ChangeEffect(modifier.effect, modifier.value, user, true);
@@ -46,11 +65,20 @@ public class Potion : ScriptableObject
         }
     }
 
-    void ChangeEffect(Modifier effect, float value, GameObject user, bool activate)
+    public void ResetVisuals(Volume globalVolume)
+    {
+        ChangeVisualEffect(VisualEffect.Reset, globalVolume);
+    }
+
+    public void ChangeEffect(Modifier effect, float value, GameObject user, bool activate)
     {
         player player = user.GetComponent<player>();
         switch (effect)
         {
+            case Modifier.Reset:
+                player.ResetEffects();
+                ChangeEffect(Modifier.Opacity, 1, user, true);
+                break;
             case Modifier.InvertControls:
                 player.modifier.speed = Math.Abs(player.modifier.speed) * (activate ? -1 : 1);
                 break;
@@ -62,9 +90,36 @@ public class Potion : ScriptableObject
                 player.modifier.scale *= (bigger ? value : 1 / value);
                 player.ApplyScale();
                 break;
-            case Modifier.Reset:
-                player.ResetEffects();
+            case Modifier.Opacity:
+                Color color = player.GetComponent<SpriteRenderer>().color;
+                color.a = activate ? value : 1;
+                player.GetComponent<SpriteRenderer>().color = color;
                 break;
         }
+    }
+
+    void ChangeVisualEffect(VisualEffect effect, Volume globalVolume)
+    {
+        ColorAdjustments tmp;
+        if (globalVolume.profile.TryGet(out tmp))
+        {
+            colorAdjustments = tmp;
+        }
+        switch (effect)
+        {
+            case VisualEffect.Reset:
+                //On avait just pas fait exactement comme il faut.
+                //En faisant new on modifiait une struct temporaire
+
+                /*La sollution c'est ça -> */ colorAdjustments.colorFilter.overrideState = true; //On annonce qu'on va override le volume
+                colorAdjustments.colorFilter.value = Color.white; //ensuite on change directement la valeur
+                break;
+            case VisualEffect.Green:
+                ChangeVisualEffect(VisualEffect.Reset, globalVolume);
+                colorAdjustments.colorFilter.overrideState = true;
+                colorAdjustments.colorFilter.value = Color.green;
+                break;
+        }
+        
     }
 }

@@ -282,7 +282,8 @@ MonoBehaviour:
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -939,7 +940,8 @@ MonoBehaviour:
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -1303,11 +1305,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2016902512}
-  - {fileID: 1803187177}
   - {fileID: 896943744}
-  - {fileID: 2007972188}
-  - {fileID: 1852471903}
   - {fileID: 975741307}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1407,7 +1405,6 @@ GameObject:
   - component: {fileID: 1942599696}
   - component: {fileID: 1942599697}
   - component: {fileID: 1942599698}
-  - component: {fileID: 1942599699}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -1727,10 +1724,11 @@ MonoBehaviour:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1857712123}
   - {fileID: 1942599694}
   - {fileID: 859156703}
   - {fileID: 1254674338}
   - {fileID: 450473890}
   - {fileID: 100337127}
   - {fileID: 818539395}
+  - {fileID: 387860967}
+  - {fileID: 1626212592}
