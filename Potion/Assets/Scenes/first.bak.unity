@@ -1535,12 +1535,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1942599690}
   globalVolume: {fileID: 306911806}
-  potionList:
-  - {fileID: 11400000, guid: baee95a17b8358f48bb3316ee92195aa, type: 2}
-  - {fileID: 11400000, guid: 18120c9069a4d3940b742b6108555080, type: 2}
-  - {fileID: 11400000, guid: 9718d7cf36082c847bbf90ab194e1dc3, type: 2}
-  - {fileID: 11400000, guid: b1fe777d40db041479db4ba811282dfc, type: 2}
-  - {fileID: 11400000, guid: 35a94fb9f50fd3741b093bcb868d86a4, type: 2}
+  PL: {fileID: 11400000, guid: 5666e18d3c99af24ba10246a2a3f0092, type: 2}
 --- !u!4 &1857712123
 Transform:
   m_ObjectHideFlags: 0

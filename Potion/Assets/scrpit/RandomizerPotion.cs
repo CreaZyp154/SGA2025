@@ -11,7 +11,7 @@ public class RandomizerPotion
     public RandomizerPotion(PotionManager manager)
     {
         _manager = manager;
-        currentPotions = manager.potionList;
+        currentPotions = manager.PL.potionList;
     }
 
     public Potion Randomize()

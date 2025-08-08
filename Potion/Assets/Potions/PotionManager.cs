@@ -7,7 +7,7 @@ public class PotionManager : MonoBehaviour
 {
     [SerializeField] GameObject player;
     [SerializeField] Volume globalVolume;
-    [SerializeField] public List<Potion> potionList;
+    [SerializeField] public PotionList PL;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -22,12 +22,12 @@ public class PotionManager : MonoBehaviour
         #if UNITY_EDITOR
         if (Input.GetKeyDown(KeyCode.P))
         {
-            potionList[0].Apply(player, globalVolume);
+            PL.potionList[0].Apply(player, globalVolume);
         }
         else if (Input.GetKeyDown(KeyCode.R))
         {
-            potionList[0].ChangeEffect(Modifier.Reset, 0, player, true);
-            potionList[0].ResetVisuals(globalVolume);
+            PL.potionList[0].ChangeEffect(Modifier.Reset, 0, player, true);
+            PL.potionList[0].ResetVisuals(globalVolume);
         }
         #endif
     }
