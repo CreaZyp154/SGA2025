@@ -7,7 +7,6 @@ using System.Collections.Generic;
 public class PrefabSpawn : MonoBehaviour
 {
     [SerializeField] private List<Potion> potions = new List<Potion>();
-    [SerializeField] private Randomizer randomizer;
 
     //public GameObject Prefab { get => prefab; set => prefab = value; }
 
@@ -22,12 +21,19 @@ public class PrefabSpawn : MonoBehaviour
 
     private void OnEnable()
     {
-        randomizer = new Randomizer();
+        Randomize();
     }
 
 
     void Update()
     {
 
+    }
+
+    public Potion Randomize()
+    {
+        Potion potion = potions[Random.Range(0, potions.Count)];
+        potions.Remove(potion);
+        return potion;
     }
 }
