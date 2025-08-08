@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 2d6c811a63a6a684c828012afb8569a8
+guid: c18f647ca2246cd44ac02d8d6a4abbc9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5110731548806032159
-    second: milk_0
+      213: -5915250905626923238
+    second: heart1_0
+  - first:
+      213: -3888642191627928900
+    second: heart1_1
+  - first:
+      213: 3809599036052801992
+    second: heart1_2
+  - first:
+      213: 1070334252986971335
+    second: heart1_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: milk_0
+      name: heart1_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 10
-        width: 202
-        height: 230
+        x: 0
+        y: 0
+        width: 250
+        height: 239
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +137,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e4d803fbb80319b0800000000000000
-      internalID: -5110731548806032159
+      spriteID: a1facc444aec8eda0800000000000000
+      internalID: -5915250905626923238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart1_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 183
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbabb659784c80ac0800000000000000
+      internalID: -3888642191627928900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart1_2
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 144
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c90990a32a6ed430800000000000000
+      internalID: 3809599036052801992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart1_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 52
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4b83c05579ade00800000000000000
+      internalID: 1070334252986971335
       vertices: []
       indices: 
       edges: []
@@ -148,7 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      milk_0: -5110731548806032159
+      heart1_0: -5915250905626923238
+      heart1_1: -3888642191627928900
+      heart1_2: 3809599036052801992
+      heart1_3: 1070334252986971335
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

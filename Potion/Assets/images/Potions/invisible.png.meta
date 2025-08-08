@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 2d6c811a63a6a684c828012afb8569a8
+guid: 7ffa55f9bb58995458980e186db4aa4e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5110731548806032159
-    second: milk_0
+      213: 2036037179587684401
+    second: invisible_0
+  - first:
+      213: 5691827100839759603
+    second: invisible_1
+  - first:
+      213: 6011737786472753911
+    second: invisible_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: milk_0
+      name: invisible_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 10
-        width: 202
-        height: 230
+        x: 62
+        y: 7
+        width: 130
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +134,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e4d803fbb80319b0800000000000000
-      internalID: -5110731548806032159
+      spriteID: 138efc60705714c10800000000000000
+      internalID: 2036037179587684401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invisible_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 240
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fece74779e6dfe40800000000000000
+      internalID: 5691827100839759603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invisible_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 5
+        width: 57
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa608d4aabfd6350800000000000000
+      internalID: 6011737786472753911
       vertices: []
       indices: 
       edges: []
@@ -148,7 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      milk_0: -5110731548806032159
+      invisible_0: 2036037179587684401
+      invisible_1: 5691827100839759603
+      invisible_2: 6011737786472753911
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

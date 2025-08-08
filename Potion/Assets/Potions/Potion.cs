@@ -38,10 +38,8 @@ public class Potion : ScriptableObject
     public string potionName;
     [TextArea] public string description;
     public string effectDescription;
-    public Texture2D image;
+    public Sprite image;
 
-
-    public Volume globalVolume;
     private ColorAdjustments colorAdjustments;
 
     public List<Modifiers> modifiers = new List<Modifiers>();

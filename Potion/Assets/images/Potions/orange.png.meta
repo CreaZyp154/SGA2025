@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: 2d6c811a63a6a684c828012afb8569a8
+guid: 5932e05ac854d3e4a9b6de49c87c58c0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5110731548806032159
-    second: milk_0
+      213: 3563334719634705521
+    second: potion2_0
+  - first:
+      213: -1149600054624994041
+    second: potion2_1
+  - first:
+      213: -4644237654210698057
+    second: potion2_2
+  - first:
+      213: -4228565393247774788
+    second: potion2_3
+  - first:
+      213: -5778700324890866160
+    second: potion2_4
+  - first:
+      213: 2799570569761001672
+    second: potion2_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: milk_0
+      name: potion2_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 10
-        width: 202
-        height: 230
+        x: 103
+        y: 222
+        width: 21
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +143,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e4d803fbb80319b0800000000000000
-      internalID: -5110731548806032159
+      spriteID: 17c84a35c02837130800000000000000
+      internalID: 3563334719634705521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: potion2_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 189
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70dbe4657dccb00f0800000000000000
+      internalID: -1149600054624994041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: potion2_2
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 209
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b42740b57a5c8fb0800000000000000
+      internalID: -4644237654210698057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: potion2_3
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 6
+        width: 109
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7d4f1cd2e1155c0800000000000000
+      internalID: -4228565393247774788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: potion2_4
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 7
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e027fdbaeedcfa0800000000000000
+      internalID: -5778700324890866160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: potion2_5
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 8
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c01e36b9921ad620800000000000000
+      internalID: 2799570569761001672
       vertices: []
       indices: 
       edges: []
@@ -148,7 +273,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      milk_0: -5110731548806032159
+      potion2_0: 3563334719634705521
+      potion2_1: -1149600054624994041
+      potion2_2: -4644237654210698057
+      potion2_3: -4228565393247774788
+      potion2_4: -5778700324890866160
+      potion2_5: 2799570569761001672
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -12,11 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcc10f1f0622fe943ae568be8e1271e5, type: 3}
   m_Name: Milk
   m_EditorClassIdentifier: 
-  potionName: Milk
-  description: This is milk
-  effectDescription: 
-  image: {fileID: 0}
-  globalVolume: {fileID: 0}
+  potionName: Dairy Potion
+  description: 'hailing from the finest bovines this land has to offer
+
+    this
+    wonderfully tasty milk removes all ailments
+
+    leaving you feeling
+
+    refreshed
+    and relaxed'
+  effectDescription: Removes potion effects
+  image: {fileID: 7434110368597317888, guid: 6280b372698180d40a7330e6ce1f7b28, type: 3}
   modifiers:
   - effect: 0
     value: 0

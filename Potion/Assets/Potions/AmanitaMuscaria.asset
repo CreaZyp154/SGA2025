@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: AmanitaMuscaria
   m_EditorClassIdentifier: 
   potionName: Amanita muscaria
-  description: 
+  description: Desc
   effectDescription: 
-  image: {fileID: 0}
-  globalVolume: {fileID: 0}
+  image: {fileID: 357749872346554099, guid: 0c81494dd7597644b9a0ff206eb54881, type: 3}
   modifiers:
   - effect: 3
     value: 2
