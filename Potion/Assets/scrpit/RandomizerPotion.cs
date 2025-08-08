@@ -14,10 +14,5 @@ public class RandomizerPotion
         currentPotions = manager.PL.potionList;
     }
 
-    public Potion Randomize()
-    {
-        Potion potion = currentPotions[Random.Range(0, currentPotions.Count)];
-        currentPotions.Remove(potion);
-        return potion;
-    }
+
 }
