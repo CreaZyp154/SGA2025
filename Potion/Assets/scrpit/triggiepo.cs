@@ -6,17 +6,18 @@ using NUnit.Framework.Internal;
 
 public class triggiepo : MonoBehaviour
 {
+    [SerializeField] PotionManager manager;
     public Canvas pot;
-    randomizerPotion randomizer;
+    RandomizerPotion randomizer;
 
      
 
     void OnTriggerEnter2D(Collider2D other)
     {
         pot.enabled = true;
-        randomizer = new randomizerPotion();
+        randomizer = new RandomizerPotion(manager);
 
-        string potion = randomizer.Randomize();
+        Potion potion = randomizer.Randomize();
 
     }
 

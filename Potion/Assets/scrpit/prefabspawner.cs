@@ -1,9 +1,13 @@
+using NUnit.Framework;
+using NUnit.Framework.Internal;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections.Generic;
 
 public class PrefabSpawn : MonoBehaviour
 {
-    [SerializeField] private Image[] image;
+    [SerializeField] private List<Potion> potions = new List<Potion>();
+    [SerializeField] private Randomizer randomizer;
 
     //public GameObject Prefab { get => prefab; set => prefab = value; }
 
@@ -11,9 +15,14 @@ public class PrefabSpawn : MonoBehaviour
     {
         Resources.Load<GameObject>("potionfiller");
 
-        image[0].sprite = null;
+        //.sprite = null;
         
 
+    }
+
+    private void OnEnable()
+    {
+        randomizer = new Randomizer();
     }
 
 

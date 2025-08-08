@@ -7,7 +7,7 @@ public class PotionManager : MonoBehaviour
 {
     [SerializeField] GameObject player;
     [SerializeField] Volume globalVolume;
-    [SerializeField] private List<Potion> potionList;
+    [SerializeField] public List<Potion> potionList;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

@@ -24,7 +24,6 @@ public class cop : MonoBehaviour
         }
     }
 
-
     void Update() //all the notes make boris turn like crazy
     {
         distance = Vector2.Distance(transform.position, player.transform.position);
