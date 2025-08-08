@@ -79480,6 +79480,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 975741306}
   m_CullTransparentMesh: 1
+--- !u!1 &978426579 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3925432651230639934, guid: 603fa2ac24ad6f74aac27db0e214a055, type: 3}
+  m_PrefabInstance: {fileID: 7404073382658780900}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1028934718
 GameObject:
   m_ObjectHideFlags: 0
@@ -80010,6 +80015,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1584346947}
   m_CullTransparentMesh: 1
+--- !u!1 &1584458510 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3925432651230639934, guid: 603fa2ac24ad6f74aac27db0e214a055, type: 3}
+  m_PrefabInstance: {fileID: 472122526}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1626212588
 GameObject:
   m_ObjectHideFlags: 0
@@ -80029,7 +80039,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1626212589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80130,7 +80140,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8525af5c64d02d1439f0b7b8cdf3e7f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  potions: []
+  PotionListSO: {fileID: 11400000, guid: 5666e18d3c99af24ba10246a2a3f0092, type: 2}
+  tmpPotionList: []
+  currentPotions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  Potion1: {fileID: 978426579}
+  Potion2: {fileID: 1584458510}
+  Potion3: {fileID: 1986751740}
 --- !u!1 &1654131086
 GameObject:
   m_ObjectHideFlags: 0
@@ -80312,12 +80330,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1942599690}
   globalVolume: {fileID: 85406263}
-  potionList:
-  - {fileID: 11400000, guid: baee95a17b8358f48bb3316ee92195aa, type: 2}
-  - {fileID: 11400000, guid: 18120c9069a4d3940b742b6108555080, type: 2}
-  - {fileID: 11400000, guid: 9718d7cf36082c847bbf90ab194e1dc3, type: 2}
-  - {fileID: 11400000, guid: b1fe777d40db041479db4ba811282dfc, type: 2}
-  - {fileID: 11400000, guid: 35a94fb9f50fd3741b093bcb868d86a4, type: 2}
+  PL: {fileID: 0}
 --- !u!4 &1782977854
 Transform:
   m_ObjectHideFlags: 0
@@ -80615,7 +80628,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1894595747}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
@@ -81043,6 +81056,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   first: first
+  menu: 
 --- !u!4 &1971121551
 Transform:
   m_ObjectHideFlags: 0
@@ -81058,6 +81072,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1986751740 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3925432651230639934, guid: 603fa2ac24ad6f74aac27db0e214a055, type: 3}
+  m_PrefabInstance: {fileID: 1101296208}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2016902511
 GameObject:
   m_ObjectHideFlags: 0

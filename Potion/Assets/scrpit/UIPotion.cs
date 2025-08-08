@@ -2,21 +2,16 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class UIPotion : MonoBehaviour
-
 {
-    public GameObject potion1; 
-    public GameObject potion2;
-    public GameObject potion3;
+    public Image image;
 
-
-
-
-    public void Setup(Potion b)
+    private void Awake()
     {
-        Image imageComponent = potion1.GetComponent<Image>();
+        image = GetComponent<Image>();
+    }
 
-        Sprite newpot = 
-
-
+    public void Setup(Potion potion)
+    {
+        image.sprite = potion.image;
     }
 }

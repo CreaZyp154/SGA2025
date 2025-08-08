@@ -6,34 +6,41 @@ using System.Collections.Generic;
 
 public class PrefabSpawn : MonoBehaviour
 {
-    [SerializeField] private List<Potion> potions = new List<Potion>();
+    [SerializeField] private PotionList PotionListSO;
+    [SerializeField] private List<Potion> tmpPotionList = new List<Potion>();
+    [SerializeField] private Potion[] currentPotions = new Potion[3];
+
+    [SerializeField] private GameObject Potion1;
+    [SerializeField] private GameObject Potion2;
+    [SerializeField] private GameObject Potion3;
+
 
     //public GameObject Prefab { get => prefab; set => prefab = value; }
 
-    void Start()
-    {
-        Resources.Load<GameObject>("potionfiller");
-
-        //.sprite = null;
-        
-
-    }
-
     private void OnEnable()
     {
-        Randomize();
+        tmpPotionList = PotionListSO.potionList;
+        for (int i = 0; i < currentPotions.Length; i++)
+        {
+            currentPotions[i] = Randomize();
+        }
+
+        Potion1.GetComponent<UIPotion>().Setup(currentPotions[0]);
+        Potion2.GetComponent<UIPotion>().Setup(currentPotions[1]);
+        Potion3.GetComponent<UIPotion>().Setup(currentPotions[2]);
+
     }
 
-
-    void Update()
+    private void OnDisable()
     {
-
+        tmpPotionList.Clear();
+        currentPotions = null;
     }
 
     public Potion Randomize()
     {
-        Potion potion = potions[Random.Range(0, potions.Count)];
-        potions.Remove(potion);
+        Potion potion = tmpPotionList[Random.Range(0, tmpPotionList.Count)];
+        tmpPotionList.Remove(potion);
         return potion;
     }
 }
