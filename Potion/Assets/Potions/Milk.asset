@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcc10f1f0622fe943ae568be8e1271e5, type: 3}
   m_Name: Milk
   m_EditorClassIdentifier: 
-  potionName: 
-  description: 
+  potionName: Milk
+  description: This is milk
   effectDescription: 
   image: {fileID: 0}
   modifiers:
