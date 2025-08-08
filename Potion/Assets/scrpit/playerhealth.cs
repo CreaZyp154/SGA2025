@@ -11,11 +11,14 @@ public class playerhealth : MonoBehaviour
     public Image healthBar; 
     public int respawn; 
     public Animator animator;
-    public Rigidbody2D rb; 
+    public Rigidbody2D rb;
+    public Canvas ded;
+    public Canvas helth; 
 
     void Start()
     {
-        maxHealth = health; 
+        maxHealth = health;
+       
     }
 
     
@@ -27,7 +30,11 @@ public class playerhealth : MonoBehaviour
         {
             animator.SetTrigger("dead");
             rb.constraints = RigidbodyConstraints2D.FreezeAll;
+            ded.enabled = true;
+            helth.enabled = false; 
+            
             this.enabled = false;
+             
 
         }
     }
