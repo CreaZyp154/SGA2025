@@ -1263,6 +1263,7 @@ MonoBehaviour:
   player: {fileID: 1942599690}
   speed: 5
   maxHealth: 100
+  animator: {fileID: 0}
 --- !u!61 &1254674340
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1535,6 +1536,7 @@ MonoBehaviour:
   player: {fileID: 1942599690}
   globalVolume: {fileID: 306911806}
   potionList:
+  - {fileID: 11400000, guid: baee95a17b8358f48bb3316ee92195aa, type: 2}
   - {fileID: 11400000, guid: 18120c9069a4d3940b742b6108555080, type: 2}
   - {fileID: 11400000, guid: 9718d7cf36082c847bbf90ab194e1dc3, type: 2}
   - {fileID: 11400000, guid: b1fe777d40db041479db4ba811282dfc, type: 2}
@@ -1592,6 +1594,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 10
   tr: {fileID: 1942599695}
+  animator: {fileID: 0}
 --- !u!50 &1942599692
 Rigidbody2D:
   serializedVersion: 5
@@ -1822,6 +1825,10 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 1654131088}
   respawn: 0
+  animator: {fileID: 0}
+  rb: {fileID: 0}
+  ded: {fileID: 0}
+  helth: {fileID: 0}
 --- !u!61 &1942599697
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1886,6 +1893,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   attackDamage: 40
+  animator: {fileID: 0}
 --- !u!114 &1942599699
 MonoBehaviour:
   m_ObjectHideFlags: 0

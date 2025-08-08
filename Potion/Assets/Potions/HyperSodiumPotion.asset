@@ -15,7 +15,10 @@ MonoBehaviour:
   potionName: Hyper Sodium Potion
   description: This  yellowed liquid has a very foul taste and an even  worse smell.
     Why would you even drink this?
+  effectDescription: 
   image: {fileID: 0}
+  globalVolume: {fileID: 0}
   modifiers:
-  - effect: 1
+  - effect: 2
     value: -0.5
+  visualEffect: 0

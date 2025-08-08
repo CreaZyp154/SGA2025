@@ -18,6 +18,6 @@ MonoBehaviour:
   image: {fileID: 0}
   globalVolume: {fileID: 0}
   modifiers:
-  - effect: 2
+  - effect: 3
     value: 2
   visualEffect: 2

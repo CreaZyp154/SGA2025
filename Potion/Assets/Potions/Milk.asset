@@ -16,6 +16,8 @@ MonoBehaviour:
   description: This is milk
   effectDescription: 
   image: {fileID: 0}
+  globalVolume: {fileID: 0}
   modifiers:
-  - effect: 2
+  - effect: 0
     value: 0
+  visualEffect: 1
