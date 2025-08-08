@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   potionName: Hero-ing Potion
   description: 
+  effectDescription: 
   image: {fileID: 0}
+  globalVolume: {fileID: 0}
   modifiers: []
+  visualEffect: 0

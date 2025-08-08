@@ -14,5 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   potionName: Invisibility Potion
   description: 
+  effectDescription: 
   image: {fileID: 0}
-  modifiers: []
+  globalVolume: {fileID: 0}
+  modifiers:
+  - effect: 4
+    value: 0
+  visualEffect: 0
