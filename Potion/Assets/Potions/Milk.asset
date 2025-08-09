@@ -23,7 +23,7 @@ MonoBehaviour:
     refreshed
     and relaxed'
   effectDescription: Removes potion effects
-  image: {fileID: 7434110368597317888, guid: 6280b372698180d40a7330e6ce1f7b28, type: 3}
+  image: {fileID: 21300000, guid: 6280b372698180d40a7330e6ce1f7b28, type: 3}
   modifiers:
   - effect: 0
     value: 0

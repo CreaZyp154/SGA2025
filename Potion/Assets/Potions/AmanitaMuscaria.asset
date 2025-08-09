@@ -15,7 +15,7 @@ MonoBehaviour:
   potionName: Amanita muscaria
   description: Desc
   effectDescription: 
-  image: {fileID: 357749872346554099, guid: 0c81494dd7597644b9a0ff206eb54881, type: 3}
+  image: {fileID: 21300000, guid: 0c81494dd7597644b9a0ff206eb54881, type: 3}
   modifiers:
   - effect: 3
     value: 2

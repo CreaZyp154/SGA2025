@@ -78293,7 +78293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manager: {fileID: 1782977853}
-  pot: {fileID: 1626212591}
+  pot: {fileID: 1626212588}
 --- !u!61 &387860966
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -78451,7 +78451,10 @@ PrefabInstance:
     - {fileID: 3944334831844130738, guid: 603fa2ac24ad6f74aac27db0e214a055, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3925432651230639934, guid: 603fa2ac24ad6f74aac27db0e214a055, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1584458514}
   m_SourcePrefab: {fileID: 100100000, guid: 603fa2ac24ad6f74aac27db0e214a055, type: 3}
 --- !u!224 &472122527 stripped
 RectTransform:
@@ -79718,7 +79721,10 @@ PrefabInstance:
     - {fileID: 3944334831844130738, guid: 603fa2ac24ad6f74aac27db0e214a055, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3925432651230639934, guid: 603fa2ac24ad6f74aac27db0e214a055, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1986751744}
   m_SourcePrefab: {fileID: 100100000, guid: 603fa2ac24ad6f74aac27db0e214a055, type: 3}
 --- !u!224 &1101296209 stripped
 RectTransform:
@@ -80020,6 +80026,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3925432651230639934, guid: 603fa2ac24ad6f74aac27db0e214a055, type: 3}
   m_PrefabInstance: {fileID: 472122526}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1584458514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584458510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8336fea22c410f646b0d4907f0980d32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 0}
 --- !u!1 &1626212588
 GameObject:
   m_ObjectHideFlags: 0
@@ -80087,7 +80106,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1626212588}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
@@ -80351,6 +80370,19 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3214540864853866139, guid: 603fa2ac24ad6f74aac27db0e214a055, type: 3}
   m_PrefabInstance: {fileID: 7404073382658780900}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1803187181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978426579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8336fea22c410f646b0d4907f0980d32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 0}
 --- !u!1 &1852471902
 GameObject:
   m_ObjectHideFlags: 0
@@ -81077,6 +81109,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3925432651230639934, guid: 603fa2ac24ad6f74aac27db0e214a055, type: 3}
   m_PrefabInstance: {fileID: 1101296208}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1986751744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986751740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8336fea22c410f646b0d4907f0980d32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 0}
 --- !u!1 &2016902511
 GameObject:
   m_ObjectHideFlags: 0
@@ -81268,7 +81313,10 @@ PrefabInstance:
     - {fileID: 3944334831844130738, guid: 603fa2ac24ad6f74aac27db0e214a055, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3925432651230639934, guid: 603fa2ac24ad6f74aac27db0e214a055, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1803187181}
   m_SourcePrefab: {fileID: 100100000, guid: 603fa2ac24ad6f74aac27db0e214a055, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

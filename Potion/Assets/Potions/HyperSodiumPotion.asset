@@ -16,8 +16,7 @@ MonoBehaviour:
   description: This  yellowed liquid has a very foul taste and an even  worse smell.
     Why would you even drink this?
   effectDescription: 
-  image: {fileID: 0}
-  globalVolume: {fileID: 0}
+  image: {fileID: 21300000, guid: 014e3dccb4714e4478799b0ceb1495c0, type: 3}
   modifiers:
   - effect: 2
     value: -0.5
