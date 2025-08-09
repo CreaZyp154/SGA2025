@@ -88,12 +88,12 @@ public class player : MonoBehaviour
         }
         if (inputHorizontal > 0)
         {
-            gameObject.transform.localScale = new Vector3(1, 1, 1);
+            gameObject.GetComponent<SpriteRenderer>().flipX = false;
             animator.SetBool("Walk", true); 
         }
         if (inputHorizontal < 0)
         {
-            gameObject.transform.localScale = new Vector3(-1, 1, 1);
+            gameObject.GetComponent<SpriteRenderer>().flipX = true;
             animator.SetBool("Walk", true);
         }
 
@@ -104,12 +104,12 @@ public class player : MonoBehaviour
         }
         if (inputVertical > 0)
         {
-            gameObject.transform.localScale = new Vector3(1, 1, 1);
+            gameObject.GetComponent<SpriteRenderer>().flipX = false;
             animator.SetBool("Walk", true);
         }
         if (inputVertical < 0)
         {
-            gameObject.transform.localScale = new Vector3(-1, 1, 1);
+            gameObject.GetComponent<SpriteRenderer>().flipX = true;
             animator.SetBool("Walk", true);
         }
 

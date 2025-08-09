@@ -3,11 +3,12 @@ using NUnit.Framework.Internal;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 
 public class PrefabSpawn : MonoBehaviour
 {
     [SerializeField] private PotionList PotionListSO;
-    [SerializeField] private List<Potion> tmpPotionList = new List<Potion>();
+    [SerializeField] private List<Potion> tmpPotionList;
     [SerializeField] private Potion[] currentPotions = new Potion[3];
 
     [SerializeField] private GameObject Potion1;
@@ -19,7 +20,7 @@ public class PrefabSpawn : MonoBehaviour
 
     private void OnEnable()
     {
-        tmpPotionList = PotionListSO.potionList;
+        tmpPotionList = new List<Potion>(PotionListSO.potionList);
         for (int i = 0; i < currentPotions.Length; i++)
         {
             currentPotions[i] = Randomize();

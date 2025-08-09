@@ -31,4 +31,9 @@ public class PotionManager : MonoBehaviour
         }
         #endif
     }
+
+    public void Apply(Potion potion)
+    {
+        potion.Apply(player, globalVolume);
+    }
 }

@@ -12,11 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcc10f1f0622fe943ae568be8e1271e5, type: 3}
   m_Name: Invisibility
   m_EditorClassIdentifier: 
-  potionName: Invisibility Potion
+  potionName: 
   description: 
   effectDescription: 
-  image: {fileID: 0}
-  globalVolume: {fileID: 0}
+  image: {fileID: 21300000, guid: 7ffa55f9bb58995458980e186db4aa4e, type: 3}
   modifiers:
   - effect: 4
     value: 0
