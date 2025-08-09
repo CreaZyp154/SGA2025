@@ -9,7 +9,10 @@ public class SceneTransition : MonoBehaviour
     public Canvas pause;
     public Rigidbody2D rb;
     public Canvas Catalogue;
-    public Canvas mainmenu; 
+    public Canvas mainmenu;
+    public Canvas journal;
+    public Canvas credits; 
+    
 
 
     public void Reload()
@@ -48,8 +51,15 @@ public class SceneTransition : MonoBehaviour
     public void quit()
     {
         Application.Quit();
-        Debug.Log("quit"); 
+        Debug.Log("quit");
     }
+
+    public void jour()
+    {
+        journal.enabled = true;
+        credits.enabled = false; 
+    }
+    
 
 }
 
