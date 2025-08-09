@@ -10,13 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcc10f1f0622fe943ae568be8e1271e5, type: 3}
-  m_Name: Speed
+  m_Name: Green 1
   m_EditorClassIdentifier: 
-  potionName: Speed
+  potionName: Depression
   description: 
   effectDescription: 
-  image: {fileID: 0}
-  modifiers:
-  - effect: 2
-    value: 0.5
-  visualEffect: 0
+  image: {fileID: 21300000, guid: e236846e5ef3b6f488fc39bc086de14e, type: 3}
+  modifiers: []
+  visualEffect: 2

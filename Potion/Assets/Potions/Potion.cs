@@ -14,7 +14,10 @@ public enum Modifier
     InvertControls,
     Speed,
     Scale,
-    Opacity
+    Opacity,
+    Regen,
+    MaxHealth,
+    Invincibility
 }
 
 [System.Serializable]
@@ -22,7 +25,8 @@ public enum VisualEffect
 {
     None,
     Reset,
-    Green
+    Green,
+    Monochrome
 }
 
 [CreateAssetMenu(menuName = "Potions/New Potion")]
@@ -55,8 +59,9 @@ public class Potion : ScriptableObject
         }
     }
 
-    public void Remove(GameObject user)
+    public void Remove(GameObject user, Volume globalVolume)
     {
+        ChangeVisualEffect(VisualEffect.Reset, globalVolume);
         foreach (Modifiers modifier in modifiers)
         {
             ChangeEffect(modifier.effect, modifier.value, user, false);
@@ -71,6 +76,7 @@ public class Potion : ScriptableObject
     public void ChangeEffect(Modifier effect, float value, GameObject user, bool activate)
     {
         player player = user.GetComponent<player>();
+        playerhealth health = user.GetComponent<playerhealth>();
         switch (effect)
         {
             case Modifier.Reset:
@@ -93,6 +99,19 @@ public class Potion : ScriptableObject
                 color.a = activate ? value : 1;
                 player.GetComponent<SpriteRenderer>().color = color;
                 break;
+            case Modifier.Regen:
+                health.health = value > 0 ? health.maxHealth : 0;
+                break;
+            case Modifier.MaxHealth:
+                health.maxHealth += activate ? value : -value;
+                health.health = health.maxHealth;
+                break;
+            case Modifier.Invincibility:
+                //invis code
+                PotionManager manager = FindFirstObjectByType<PotionManager>();
+                player.invincible = activate;
+                manager.RemoveAfter(this, user, value);
+                break;
         }
     }
 
@@ -111,11 +130,18 @@ public class Potion : ScriptableObject
 
                 /*La sollution c'est ça -> */ colorAdjustments.colorFilter.overrideState = true; //On annonce qu'on va override le volume
                 colorAdjustments.colorFilter.value = Color.white; //ensuite on change directement la valeur
+                colorAdjustments.saturation.overrideState = true;
+                colorAdjustments.saturation.value = 0;
                 break;
             case VisualEffect.Green:
                 ChangeVisualEffect(VisualEffect.Reset, globalVolume);
                 colorAdjustments.colorFilter.overrideState = true;
                 colorAdjustments.colorFilter.value = Color.green;
+                break;
+            case VisualEffect.Monochrome:
+                ChangeVisualEffect(VisualEffect.Reset, globalVolume);
+                colorAdjustments.saturation.overrideState = true;
+                colorAdjustments.saturation.value = -100;
                 break;
         }
         

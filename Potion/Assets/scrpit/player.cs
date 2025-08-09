@@ -7,6 +7,7 @@ public class player : MonoBehaviour
     [Header("Player stats")]
     [SerializeField] private float movementSpeed = 2f;
     [SerializeField] private TrailRenderer tr;
+    public bool invincible = false;
 
     private Rigidbody2D rb; 
     private Vector2 movementDirection;

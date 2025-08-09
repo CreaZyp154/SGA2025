@@ -15,8 +15,7 @@ MonoBehaviour:
   potionName: Invert
   description: Invert controls
   effectDescription: 
-  image: {fileID: 2800000, guid: 5ba348d8bb358de4b9dc65fbe4382f6d, type: 3}
-  globalVolume: {fileID: 0}
+  image: {fileID: 21300000, guid: f14db0a1fd2504a4593a69515cdb9418, type: 3}
   modifiers:
   - effect: 1
     value: 0

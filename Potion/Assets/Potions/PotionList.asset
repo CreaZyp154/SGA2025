@@ -13,7 +13,13 @@ MonoBehaviour:
   m_Name: PotionList
   m_EditorClassIdentifier: 
   potionList:
+  - {fileID: 11400000, guid: 66c2d359038b2094e9e2c182fa01b7b2, type: 2}
+  - {fileID: 11400000, guid: c4599514c84aec14b97af7376fb9ec35, type: 2}
+  - {fileID: 11400000, guid: 3972f4a7217c3db4bbeafd92eabdba0c, type: 2}
+  - {fileID: 11400000, guid: 7b697e2016df93e449168189a6c5e389, type: 2}
+  - {fileID: 11400000, guid: a4939bdf2372b6947866a9cdb2444d6e, type: 2}
   - {fileID: 11400000, guid: 18120c9069a4d3940b742b6108555080, type: 2}
   - {fileID: 11400000, guid: b1fe777d40db041479db4ba811282dfc, type: 2}
   - {fileID: 11400000, guid: 9718d7cf36082c847bbf90ab194e1dc3, type: 2}
   - {fileID: 11400000, guid: baee95a17b8358f48bb3316ee92195aa, type: 2}
+  - {fileID: 11400000, guid: 8a058c58544e69d468e2720e9b6fe574, type: 2}

@@ -26,7 +26,11 @@ public class ennemy_damage : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             if (Time.time - lastHitTime >= 2f){
-                other.gameObject.GetComponent<playerhealth>().health -= damage;
+                GameObject player = other.gameObject;
+                if (!player.GetComponent<player>().invincible)
+                {
+                    other.gameObject.GetComponent<playerhealth>().health -= damage;
+                }
 
                 lastHitTime = Time.time;
             }
