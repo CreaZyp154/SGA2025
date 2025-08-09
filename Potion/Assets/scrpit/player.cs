@@ -37,6 +37,8 @@ public class player : MonoBehaviour
 
     public Animator animator;
 
+    public Canvas pause; 
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -58,7 +60,13 @@ public class player : MonoBehaviour
             StartCoroutine(Dash());
         }
 
-        GetInput(); 
+        GetInput();
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            pause.enabled = true;
+            rb.constraints = RigidbodyConstraints2D.FreezeAll;
+        }
 
     }
 
